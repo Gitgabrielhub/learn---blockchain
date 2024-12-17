@@ -1,0 +1,4 @@
+Estudos de blockchain com javascript:
+- primeiro instalar o package.json com o npm init -y;
+- segundo passo instalar o pacote nodeModules npm install ou npm i;
+- instalar biblioteca crypto-js para criar os hashs do nosso bloco e gerar o hash dos possiveis blocos a serem criados futuramente.os hashs garantem a segurança ao navegar pelos blocos criados, nao sendo possivel mudar nenhum dado ja criado, se mudar o dado o hash tambem sofrerá alteração e implicará na mudança do hash do bloco, o que acarretara em erro nos proximos blocos, pois aquele hash que sofreu mutação nao existira nos blocos subsequentes.
